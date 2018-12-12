@@ -2,7 +2,7 @@
 
 A Clojure library designed to make it easy to see what groups a user belongs to.
 
-The 'id' command is useful for seeing info about a user, e.g., what groups the user is in. Unfortunately you can't pipe the results to grep for to search for a group because 'id' dumps all groups on the same line. It's doable, but it's not obvious what groups you get a hit on because it shows you the whole line (all the groups) if there is a match.
+The 'id' command is useful for seeing info about a user, e.g., what groups the user is in. Unfortunately you can't pipe the results to grep to search for a group because 'id' dumps all groups on the same line. It's doable, but it's not obvious what groups you get a hit on because it shows you the whole line (all the groups) if there is a match.
 
 ## Usage
 ```
